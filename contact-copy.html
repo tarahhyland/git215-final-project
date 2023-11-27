@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Swiss Escape | Contact</title>
+            <meta name="author" content="Tarah Hyland">
+            <meta name="description" content="Contact page for Swiss Escape">
+            
+            <!-- stylesheet -->
+            <link rel="stylesheet" href="styles.css">
+
+            <!-- fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+            <!-- favicon -->
+            <link rel="icon" type= "image/x-icon" href="images/favicon.ico">
+
+        </head>
+
+        <body>
+            <header>
+                <h1><a href="index.html">Swiss Escape</a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            </header>
+
+        <img id="hero-img" src="images/swiss-valley.jpg" alt="valley in the swiss alps covered with full, green trees with the mountains in the background" width="1440" height="560">
+
+            <main>
+                
+                <section id="contact">
+                    <section id="contact_text">
+                        <h2>Contact Us</h2>
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                        <p>Required fields marked with a <span class="required">*</span></p>
+                    </section>
+
+                    <img src="images/swiss-peak.jpg" alt="snowy swiss mountain peak with a forest valley below it" width="350" height="455">
+
+                    <section id="form">
+                        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+
+                            <label for="my-name">Full Name<span class="required">*</span></label>
+                            <input type="text" name="my-name" id="my-name" required>
+
+                            <label for="my-email">Email Address<span class="required">*</span></label>
+                            <input type="text" name="my-email" id="my-email" required>
+
+                            <label for="my-phone">Phone Number<span class="required">*</span></label>
+                            <input type="text" name="my-phone" id="my-phone" required>
+
+                            <fieldset>
+                                <legend>Preferred Method of Contact</legend>
+                                <input type="radio" name="contact-pref" id="pref-email" checked>
+                                <label for="pref-email">Email</label>
+                                <input type="radio" name="contact-pref" id="pref-phone">
+                                <label for="pref-phone">Phone</label>
+                            </fieldset>
+
+                            <label for="my-comments">Comments<span class="required">*</span></label>
+                            <textarea name="my-comments" id="my-comments" required></textarea>
+                            
+                            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                        </form>
+                    </section>
+                </section>
+
+            </main>
+
+            <footer>
+                <p>Copyright ©2023 - Swiss Escape</p>
+                <p>This site is for educational purposes only</p>
+            </footer>
+        </body>
+    </html>
